@@ -1,4 +1,4 @@
-# Bilingual-Text-to-CAD-Model-Generation-English-Vietnamese (Code Train)
+# Bilingual-Text-to-CAD-Model-Generation-English-Vietnamese (Code Training Phase)
 
 ## Project Description
 A project for generating CAD models from natural language descriptions, supporting both English and Vietnamese.
@@ -20,9 +20,9 @@ A project for generating CAD models from natural language descriptions, supporti
 - `sft_multi_lora.ipynb`: notebook multiturn training with LoRA adapters
 
 **src/inference/**
-- `inference_test.py`: test inference model with single sample
-- `gen_test_all.py`: generate predictions for entire test dataset
-- `gen_test_index.py`: generate predictions for specific index range
+- `inference_test.py`: test inference model with a single sample
+- `gen_test_all.py`: generate predictions for the entire test dataset
+- `gen_test_index.py`: generate predictions for a specific index range
 
 **src/process_data/**
 - `create_reasoning_en.py`: create English reasoning dataset with Gemini
